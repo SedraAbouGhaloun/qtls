@@ -108,10 +108,10 @@ with open("pvalue.csv", "w") as f:
 
     
 with open("molecular_trait_object_id_idx.csv", "w") as f:
-    f.write('\t'.join(map(str,prev_mtid_list)))
+    f.write('\t'.join(map(str,prev_mtoid_list)))
     
 with open("molecular_trait_id_idx.csv", "w") as f:
-    f.write('\t'.join(map(str,prev_mtoid_list)))    
+    f.write('\t'.join(map(str,prev_mtid_list)))    
     
 with open("variant_idx.csv", "w") as f:
     f.write('\t'.join(map(str,prev_variant_list)))
